@@ -1,0 +1,20 @@
+    body{
+      background-color: #D3EBCD;
+    }
+
+hr{
+  border-style: dotted none none;
+  border-color: #839AA8;
+  border-width: 5px;
+  width: 3.5%;
+}
+h1{
+  font-family: arial;
+  font-variant: small-caps;
+  color: #839AA8;
+}
+
+h3{
+  color: #635666;
+  font-variant: small-caps;
+}
