@@ -1,71 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
-  <title>Matt's Personal Site</title>
-<link rel="stylesheet" href="CSS/styles.css">
+  <title>Matt Pelletier</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Profile Picture.png" alt="Matt Pelletier Profile Picture"></td>
-      <td>
-        <h1><strong>Matt Pelletier</strong></a></h1>
-        <p><em>Power Engineer and Web Developer</em></p>
-        <p>I am a 3rd class Power Engineer and aspiring Web Developer and father of three wonderful kids.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>NAIT</li>
-    <li>Sturgeon Composite</li>
-    <li>Gibbons School</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2013-Present</td>
-        <td>Shell Canada Process Operator</td>
-      </tr>
-      <tr>
-        <td>2006-2013</td>
-        <td>Evonik Process Operator</td>
-      </tr>
-    </tbody>
-    <tfoot>
-    </tfoot>
-  </table>
-  <hr>
-  <h3>Skills
-  </h3>
-  <table cellspacing="10">
-    <tr>
-      <td>HTML</td>
-      <td>★★★☆☆</td>
-      <td>Javascript</td>
-      <td>☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>★☆☆☆☆</td>
-      <td>Python</td>
-      <td>☆☆☆☆☆</td>
-    </tr>
-  </table>
-  <hr />
-  <p><a href="Hobbies.html">My Hobbies</a></p>
-  <p><a href="contact.html">Contact Me</a></p>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Matt.</h1>
+    <h2>A <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profilePicture" src="images/profilePicture.png" alt="profile-picture">
+      <h2>Hello.</h2>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
+    <hr>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="designImage" src="images/skills.png" alt="computer">
+        <h3>Web Design and Development</h3>
+        <p>I started to learn to code at a very young age but life went in other directions.  More then 20 years down the road I decided a career change was in order. So far I am loving the journey and I am enjoying learning and problem solving that web design entails.</p>
+      </div>
+      <div class="skill-row">
+        <img class="codingImage" src="images/codingAnimated.gif" alt="computer">
+        <h3>Software Development</h3>
+        <p>Along with web design I have been learning software design as well.  I am fascinated with what can be done in this space and look forward to learning more.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Learning a new coding language?</h3>
+      <p>I'd love to hear from others starting this learning journey as I am.  Please reach out if you'd like to chat or bounce ideas off one another.</p>
+      <a class="btn" href="mailto:matt.pelletier1985@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright" >© 2022 Matt Pelletier.</p>
+  </div>
 </body>
 
 </html>
